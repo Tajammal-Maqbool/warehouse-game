@@ -2,12 +2,7 @@ import { initializeApp } from "firebase/app";
 import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, getFirestore, query, updateDoc, where } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBMf7Qp8GfhQbz1KV0DtOe6OtjJBKVA14g",
-    authDomain: "warehouse-24d4f.firebaseapp.com",
-    projectId: "warehouse-24d4f",
-    storageBucket: "warehouse-24d4f.appspot.com",
-    messagingSenderId: "900183776182",
-    appId: "1:900183776182:web:1069a80c49b1f5237ebf17"
+
 };
 
 // Initialize Firebase

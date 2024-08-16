@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'BitCell';
+    src: url('/Fonts/BitCell.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'VT323';
+    src: url('/Fonts/VT323.ttf') format('truetype');
+}
+
+#rotateAlert {
+    transform: translate(0px, 0px) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #33506a;
+    width: 1200px;
+    height: 800px;
+}
+
+#rotateAlert svg {
+    width: 5rem;
+    height: 5rem;
+    fill: white;
+}
+
+@media (min-width: 640px) {
+    #rotateAlert svg {
+        width: 8rem;
+        height: 8rem;
+    }
+}
+
+#rotateAlert span {
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 0.875rem;
+}
+
+@media (min-width: 640px) {
+    #rotateAlert span {
+        font-size: 2rem;
+    }
+}
